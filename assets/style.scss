@@ -2,7 +2,7 @@
     --color-primary-main: #474B74;
     --color-primary-light: #7B80AB;
     --font-size-default-title: 4.3rem;
-    --font-size-default-text: 2.8rem;
+    --font-size-default-text: 1.5rem;
     --font-weight-title: 800;
 }
 
@@ -87,15 +87,45 @@ margin: 0 auto;
         }
         &__paragraph {
             padding-top: 2rem;
-            font-size: 1.5rem;
+            font-size: var(--font-size-default-text);
         }
     }
 }
 .our-course {
     &__title {
-        font-size: var(--font-size-default-title);
+        font-size: 3rem;
         font-weight: var(--font-weight-title);
-        padding-top: 1rem;
+        padding: 1rem;
         text-align: center;   
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        &__grid {
+            & img {
+               padding: 2px;
+            }
+            &__title-img {
+                text-align: center;
+                color: var(--color-primary-main);
+                font-weight: var(--font-weight-title);
+                font-size: var(--font-size-default-text);
+                padding-top: 0.5rem;
+            } 
+        }
+    }
+    &__wrapper-btn {
+        display: flex;
+        justify-content: center;
+        padding: 6.25rem 0;
+    }
+    &__button {
+       padding: 1.75rem 3.12rem;
+       border-radius: 3px;
+       cursor: pointer;
+       border: none;
+       background-color: var(--color-primary-main);
+       color: white;
+       font-weight: var(--font-weight-title);
     }
 }
