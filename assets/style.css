@@ -11,7 +11,20 @@ body {
   overflow-x: hidden;
 }
 
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 .header {
+  padding: 10px 0;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+
+.header__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,7 +34,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 80px 0;
 }
 
 .header__title {
@@ -39,10 +51,15 @@ body {
 
 .header__list__item__anchor {
   text-decoration: none;
-  padding: 20px;
+  padding: 8px;
   color: var(--color-primary-main);
   font-size: 1.3rem;
   font-weight: 600;
+}
+
+.header__list__item__anchor:hover {
+  text-decoration: underline;
+  color: var(--color-primary-light);
 }
 
 .front-cover {
@@ -81,28 +98,29 @@ body {
   font-size: 1.8rem;
 }
 
-.resume {
-  padding: 10rem 0;
-}
-
 .resume__our-history {
   font-size: var(--font-size-default-title);
   font-weight: var(--font-weight-title);
+  padding-top: 5rem;
 }
 
-.resume__sub-title {
-  padding-bottom: 2rem;
-  font-size: 20px;
+.resume__text {
+  padding: 10rem 0;
 }
 
-.resume__paragraph {
-  padding-bottom: 2rem;
-  font-size: 20px;
+.resume__text__sub-title {
+  font-size: 30px;
 }
 
-.container {
-  width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
+.resume__text__paragraph {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.our-course__title {
+  font-size: var(--font-size-default-title);
+  font-weight: var(--font-weight-title);
+  padding-top: 1rem;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

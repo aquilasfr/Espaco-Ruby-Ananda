@@ -17,50 +17,63 @@
     <title> Espaço Ruby Ananda</title>
 </head>
 <body>
-    <header class="header container">
-        <h1 class="header__title"><span style="color: blue;">Espaço </span>Ruby Ananda</h1>
-        <ul class="header__list">
-            <li class="header__list__item">
-                <a class="header__list__item__anchor" href="">Início</a>
-            </li>
-            <li>
-                <a class="header__list__item__anchor" href="">Nossa História</a>
-            </li>
-            <li>
-                <a class="header__list__item__anchor" href="">Cursos</a>
-            </li>
-            <li>
-                <a class="header__list__item__anchor" href="">Funcionamento</a>
-            </li>
-            <li>
-                <a class="header__list__item__anchor" href="">Contato</a>
-            </li>
-        </ul>
+    <header class="header">
+        <div class="header__wrapper container">
+            <h1 class="header__title"><span style="color: blue;">Espaço </span>Ruby Ananda</h1>
+            <ul class="header__list">
+                <li class="header__list__item">
+                    <a class="header__list__item__anchor" href="#come-soon">Início</a>
+                </li>
+                <li>
+                    <a class="header__list__item__anchor" href="#our-history">Nossa História</a>
+                </li>
+                <li>
+                    <a class="header__list__item__anchor" href="#our-course">Cursos</a>
+                </li>
+                <li>
+                    <a class="header__list__item__anchor" href="">Funcionamento</a>
+                </li>
+                <li>
+                    <a class="header__list__item__anchor" href="">Contato</a>
+                </li>
+            </ul>
+        </div>
     </header>
-    <div class="front-cover">
+    <div class="front-cover" id="come-soon">
         <div class="front-cover__wrapper">
             <h2 class="front-cover__wrapper__come-see">VENHA CONHECER O ESPAÇO RUBY ANANDA</h2>
             <p  class="front-cover__wrapper__paragraph">Um ambiente amistoso e agradável</p>
             <p class="front-cover__wrapper__paragraph">Temos cursos para todas as idades</p>
         </div>
     </div>
-    <section class="resume container">
+    <section class="resume container" id="our-history">
         <h2 class="resume__our-history">NOSSA <span style="color: #7B80AB;">HISTÓRIA</span></h2>
-        <h3 class="resume__sub-title">O Espaço Ruby Ananda</h3>
-        <p class="resume__paragraph">Desde 1990 o Espaço Ruby Ananda proporciona arte, Culturar e Bem estar por
-            meio dos seus cursos livres de musica, dança e Yoga, com profissionais
-            qualificados e estrutura ampla para maior qualidade de ensino e conforto dos
-            alunos.
-        </p>
-        <p class="resume__paragraph">O nome Ruby Ananda, tem o significado respectivamente de " pedra
-            vermelha" e "bem aventurado", dado ao antes discípulo e hoje mestre - Pedro,
-            professor de Yoga há 40 anos. 
-        </p>
-        <p class="resume__paragraph">
-            Desde então, nos aprimoramos constantemente em busca de atender da
-            melhor maneira possível nossos alunos, para realizar seus sonhos o sermos a
-            referência em nossa região.
-        </p>        
-    </section>  
+        <div class="resume__text"> 
+            <h3 class="resume__text__sub-title">O Espaço Ruby Ananda</h3>
+            <p class="resume__text__paragraph">Desde 1990 o Espaço Ruby Ananda proporciona arte, Culturar e Bem estar por
+                meio dos seus cursos livres de musica, dança e Yoga, com profissionais
+                qualificados e estrutura ampla para maior qualidade de ensino e conforto dos
+                alunos.
+            </p>
+            <p class="resume__text__paragraph">O nome Ruby Ananda, tem o significado respectivamente de " pedra
+                vermelha" e "bem aventurado", dado ao antes discípulo e hoje mestre - Pedro,
+                professor de Yoga há 40 anos. 
+            </p>
+            <p class="resume__text__paragraph">
+                Desde então, nos aprimoramos constantemente em busca de atender da
+                melhor maneira possível nossos alunos, para realizar seus sonhos o sermos a
+                referência em nossa região.
+            </p>        
+        </div>
+    </section>
+    <section class="our-course" id="our-course">
+        <h3 class="our-course__title">NOSSOS <span style="color: #7B80AB;">CURSOS</span</h3>
+        <div class="our-course__wrapper">
+            <img src="imgs/Cursos-img-ballet.jpg" width="300" height="300" alt="Imagens ballet">
+            <img src="imgs/Cursos-img-yoga.jpg" width="300" height="300" alt="Imagens Yoga">
+            <img src="imgs/Cursos-img-violão.jpg" width="300" height="300" alt=" Imagens violão">
+            <img src="imgs/Cursos-img-canto.jpg" width="300" height="300" alt=" Imagens Canto">
+        </div>
+    </section>
 </body>
 </html>
