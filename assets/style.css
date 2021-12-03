@@ -213,4 +213,43 @@ body {
   padding: 0.25rem 0;
   font-size: 1.75rem;
 }
+
+.footer {
+  background-color: var(--color-primary-main);
+}
+
+.footer__wrapper-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2rem;
+}
+
+.footer__wrapper-icon__title {
+  color: var(--collor-secondary-text);
+  font-family: 'Comfortaa', cursive;
+  font-size: 2.5rem;
+}
+
+.footer__wrapper-icon__social-medias {
+  font-size: 3rem;
+  color: var(--collor-secondary-text);
+}
+
+.footer__row {
+  border: solid 1px;
+  margin: 1rem 0;
+  color: #3E3E3E;
+}
+
+.footer__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
 /*# sourceMappingURL=style.css.map */
