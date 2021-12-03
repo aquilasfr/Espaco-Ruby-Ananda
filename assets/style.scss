@@ -28,13 +28,12 @@ margin: 0 auto;
         align-items: center;
     }
     &__title {
-        color: red;
         font-family: 'Comfortaa', cursive;
         font-weight: 800;
         font-size: 2.2rem;
     }
     .title-word--collor {
-        color: rgb(28, 28, 92);
+        color: var(--color-primary-main);
     } 
     .nav {
         &__list {
