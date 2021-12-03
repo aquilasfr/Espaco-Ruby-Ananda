@@ -181,7 +181,10 @@ margin: 0 auto;
         }
         &__social-medias {
             font-size: 3rem;
-            color: var(--collor-secondary-text);
+            &__anchor {
+                text-decoration: none;
+                color: var(--collor-secondary-text);
+            }
         }
     }
     &__row {

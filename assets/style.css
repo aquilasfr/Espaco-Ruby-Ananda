@@ -235,6 +235,10 @@ body {
 
 .footer__wrapper-icon__social-medias {
   font-size: 3rem;
+}
+
+.footer__wrapper-icon__social-medias__anchor {
+  text-decoration: none;
   color: var(--collor-secondary-text);
 }
 
