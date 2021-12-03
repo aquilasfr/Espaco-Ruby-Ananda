@@ -4,6 +4,7 @@
     --font-size-default-title: 4.3rem;
     --font-size-default-text: 1.5rem;
     --font-weight-title: 800;
+    --collor-secondary-text : #FFFFFF;
 }
 
 body {
@@ -19,7 +20,7 @@ margin: 0 auto;
 .header {
     padding: 10px 0;
     position: fixed;
-    background-color: white;
+    background-color: var(--collor-secondary-text);
     width: 100%;
     &__wrapper {
         display: flex;
@@ -31,23 +32,30 @@ margin: 0 auto;
         font-family: 'Comfortaa', cursive;
         font-weight: 800;
         font-size: 2.2rem;
-    }      
-    &__list {
-        display: flex;
-        &__item {
-            &__anchor {
-            text-decoration: none;
-            padding: 8px;
-            color: var(--color-primary-main);
-            font-size: 1.3rem;
-            font-weight: 600;
-            &:hover {
-                text-decoration: underline;
-                color: var(--color-primary-light);
-            }
-            }
-        }
     }
+    .title-word--collor {
+        color: rgb(28, 28, 92);
+    } 
+    .nav {
+        &__list {
+            display: flex;
+            &__item {
+                &__anchor {
+                    text-decoration: none;
+                    padding: 8px;
+                    color: var(--color-primary-main);
+                    font-size: 1.3rem;
+                    font-weight: 600;
+                    &:hover {
+                        text-decoration: underline;
+                        color: var(--color-primary-light);
+                    }
+                }
+            }
+        
+        }
+
+    }     
 }
 
 .front-cover {
@@ -61,11 +69,12 @@ margin: 0 auto;
         flex-direction: column;
         align-items: center;
         justify-content: center;        
-        color: white;
+        color: var(--collor-secondary-text);
         &__come-see {
             font-size: 2.8rem;
             font-weight: 700;
             margin: 40px 0;
+            text-transform: uppercase;
         }
         &__paragraph {
             padding-bottom: 15px;
@@ -78,7 +87,8 @@ margin: 0 auto;
     &__our-history {
        font-size: var(--font-size-default-title);
        font-weight: var(--font-weight-title);
-       padding-top: 5rem; 
+       padding-top: 5rem;
+       text-transform: uppercase;
     }
     &__text {
         padding: 10rem 0;
@@ -90,13 +100,20 @@ margin: 0 auto;
             font-size: var(--font-size-default-text);
         }
     }
+    .our-history-word--collor {
+        color: var(--color-primary-light);
+    }
 }
 .our-course {
     &__title {
         font-size: 3rem;
         font-weight: var(--font-weight-title);
         padding: 1rem;
-        text-align: center;   
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .our-course-word--collor {
+        color: var(--color-primary-main);
     }
     &__wrapper {
         display: flex;
@@ -125,7 +142,56 @@ margin: 0 auto;
        cursor: pointer;
        border: none;
        background-color: var(--color-primary-main);
-       color: white;
+       color: var(--collor-secondary-text);
        font-weight: var(--font-weight-title);
+       text-transform: uppercase;
+    }
+}
+.schedule {
+    background-color: var(--color-primary-light);
+    padding: 8.12rem 0;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__working-period {
+            color: var(--collor-secondary-text);
+            font-size: 3rem;
+            font-weight: var(--font-weight-title);
+            text-transform: uppercase;
+            padding: 3rem 0;
+        }
+        &__week {
+            color: var(--collor-secondary-text);
+            padding: 0.25rem 0;
+            font-size: 1.75rem;
+        }
+    }
+}
+
+.footer {
+    background-color: var(--color-primary-main);
+    &__wrapper-icon {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+        &__title {
+            color: var(--collor-secondary-text);
+            font-family: 'Comfortaa', cursive;
+            font-size: 2.5rem;
+        }
+        &__social-medias {
+            font-size: 3rem;
+            color: var(--collor-secondary-text);
+        }
+    }
+    &__row {
+        border: solid 1px;
+        margin: 1rem 0;
+        color: #3E3E3E;
+    }
+    &__contact {
+        display: flex;
+        justify-content: space-around;
     }
 }

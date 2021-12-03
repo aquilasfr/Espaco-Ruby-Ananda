@@ -14,40 +14,43 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title> Espaço Ruby Ananda</title>
 </head>
 <body>
     <header class="header">
         <div class="header__wrapper container">
-            <h1 class="header__title"><span style="color: blue;">Espaço </span>Ruby Ananda</h1>
-            <ul class="header__list">
-                <li class="header__list__item">
-                    <a class="header__list__item__anchor" href="#come-soon">Início</a>
-                </li>
-                <li>
-                    <a class="header__list__item__anchor" href="#our-history">Nossa História</a>
-                </li>
-                <li>
-                    <a class="header__list__item__anchor" href="#our-course">Cursos</a>
-                </li>
-                <li>
-                    <a class="header__list__item__anchor" href="">Funcionamento</a>
-                </li>
-                <li>
-                    <a class="header__list__item__anchor" href="">Contato</a>
-                </li>
+            <h1 class="header__title"><span class="title-word--collor">Espaço </span>Ruby Ananda</h1>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__list__item">
+                        <a class="nav__list__item__anchor" href="#come-soon">Início</a>
+                    </li>
+                    <li>
+                        <a class="nav__list__item__anchor" href="#our-history">Nossa História</a>
+                    </li>
+                    <li>
+                        <a class="nav__list__item__anchor" href="#our-course">Cursos</a>
+                    </li>
+                    <li>
+                        <a class="nav__list__item__anchor" href="#schedule">Funcionamento</a>
+                    </li>
+                    <li>
+                        <a class="nav__list__item__anchor" href="">Contato</a>
+                    </li>
+                </nav>
             </ul>
         </div>
     </header>
     <div class="front-cover" id="come-soon">
-        <div class="front-cover__wrapper">
-            <h2 class="front-cover__wrapper__come-see">VENHA CONHECER O ESPAÇO RUBY ANANDA</h2>
+        <section class="front-cover__wrapper">
+            <h2 class="front-cover__wrapper__come-see">Venha conhecer o Espaço Ruby Ananda</h2>
             <p  class="front-cover__wrapper__paragraph">Um ambiente amistoso e agradável</p>
             <p class="front-cover__wrapper__paragraph">Temos cursos para todas as idades</p>
-        </div>
+        </section>
     </div>
     <section class="resume container" id="our-history">
-        <h2 class="resume__our-history">NOSSA <span style="color: #7B80AB;">HISTÓRIA</span></h2>
+        <h2 class="resume__our-history">Nossa <span class="our-history-word--collor">História</span></h2>
         <div class="resume__text"> 
             <h3 class="resume__text__sub-title">O Espaço Ruby Ananda</h3>
             <p class="resume__text__paragraph">Desde 1990 o Espaço Ruby Ananda proporciona arte, Culturar e Bem estar por
@@ -67,28 +70,88 @@
         </div>
     </section>
     <section class="our-course container" id="our-course">
-        <h3 class="our-course__title">NOSSOS CURSOS</h3>
+        <h3 class="our-course__title">Nossos <span class="our-course-word--collor">Cursos</span></h3>
         <div class="our-course__wrapper">
           <div class="our-course__wrapper__grid">
-              <img src="imgs/Cursos-img-ballet.jpg" width="300" height="300" alt="Imagens ballet">
+              <img src="imgs/Cursos-img-ballet.jpg" width="300" height="300" alt="ballet">
                 <h3 class="our-course__wrapper__grid__title-img">Ballet</h3>
             </div>
             <div class="our-course__wrapper__grid">
-                <img src="imgs/Cursos-img-yoga.jpg" width="300" height="300" alt="Imagens Yoga">
+                <img src="imgs/Cursos-img-yoga.jpg" width="300" height="300" alt="Yoga">
                 <h3 class="our-course__wrapper__grid__title-img">Yoga</h3>
             </div>
             <div class="our-course__wrapper__grid">
-                <img src="imgs/Cursos-img-violão.jpg" width="300" height="300" alt=" Imagens violão">
+                <img src="imgs/Cursos-img-violão.jpg" width="300" height="300" alt="Violão">
                 <h3 class="our-course__wrapper__grid__title-img">Violão</h3>
             </div>
             <div class="our-course__wrapper__grid">
-                <img src="imgs/Cursos-img-canto.jpg" width="300" height="300" alt=" Imagens Canto">
+                <img src="imgs/Cursos-img-canto.jpg" width="300" height="300" alt="Canto">
                 <h3 class="our-course__wrapper__grid__title-img">Canto</h3>
             </div>
         </div>
         <div class="our-course__wrapper-btn">
-            <button class="our-course__button">CONHEÇA TODOS OS NOSSOS CURSOS</button>
+            <button class="our-course__button">Conheça todos os nossos cursos</button>
         </div>
     </section>
+    <section class="schedule" id="schedule">
+        <div class="schedule__wrapper">
+            <h3 class="schedule__wrapper__working-period">Funcionamento</h3>
+            <p class="schedule__wrapper__week">Segunda a Sexta das 8h às 19h</p>
+            <p class="schedule__wrapper__week">e Sábado das 8h às 12h</p>
+        </div>
+    </section>
+ <!--    <section class="our-space">
+        <h3 class="our-space__title">Conheça o nosso espaço</h3>
+        <div class="our-space__wrapper">
+            <div>
+                <img src="" alt="">
+            </div>
+            <div>
+                <img src="" alt="">
+            </div>
+            <div>
+                <img src="" alt="">
+            </div>
+            <div>
+                <img src="" alt="">
+            </div>
+            <div>
+                <img src="" alt="">
+            </div>
+            <div>
+                <img src="" alt="">
+            </div>
+        </div>
+    </section> -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.199723673557!2d-46.759616285021586!3d-23.597169084665076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce542e27948429%3A0x2919c6182886c9e!2sR.%20Natal%20Pigassi%2C%20870%20-%20Jardim%20Celeste%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005527-000!5e0!3m2!1spt-BR!2sbr!4v1638548151999!5m2!1spt-BR!2sbr" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </body>
+<footer class="footer">
+    <div class="footer__wrapper-icon container">
+        <h3 class="footer__wrapper-icon__title">Espaço Ruby Ananda</h3>
+        <div class="footer__wrapper-icon__social-medias">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-whatsapp"></i>
+        </div>
+    </div>
+    <div class="footer__row"></div>
+    <div class="footer__contact">
+        <div>
+            <h3>Localização</h3>
+            <p>R. Natal Pigassi, 870 - Jardim Celeste,</p>
+            <p>São Paulo - SP, 05527-000</p>
+        </div>
+        <div>
+            <h3>Funcionamento</h3>
+            <p>Segunda a Sexta das 8h às 19h</p>
+            <p>e Sábado das 8h às 12h</p>
+        </div>
+        <div>
+            <h3>Contato</h3>
+            <p>Telefone: (11) 3751-0231</p>
+            <p>Whatsapp: (11) 99572-9657</p>
+            <p>E-mail: espacorubyananda@gmail.com</p>
+        </div>
+    </div>
+</footer>
 </html>
