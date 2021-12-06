@@ -38,14 +38,13 @@ body {
 }
 
 .header__title {
-  color: red;
   font-family: 'Comfortaa', cursive;
   font-weight: 800;
   font-size: 2.2rem;
 }
 
 .header .title-word--collor {
-  color: #1c1c5c;
+  color: var(--color-primary-main);
 }
 
 .header .nav__list {
@@ -151,6 +150,8 @@ body {
 
 .our-course__wrapper__grid img {
   padding: 2px;
+  width: 300px;
+  height: 300px;
 }
 
 .our-course__wrapper__grid__title-img {
@@ -214,6 +215,35 @@ body {
   font-size: 1.75rem;
 }
 
+.our-space__title {
+  font-size: 3rem;
+  font-weight: var(--font-weight-title);
+  padding: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.our-space__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.our-space__wrapper__grid img {
+  width: 400px;
+  height: 400px;
+  padding: 2px;
+}
+
+.our-space .our-space-word--collor {
+  color: var(--color-primary-main);
+}
+
 .footer {
   background-color: var(--color-primary-main);
 }
@@ -231,17 +261,21 @@ body {
 .footer__wrapper-icon__title {
   color: var(--collor-secondary-text);
   font-family: 'Comfortaa', cursive;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .footer__wrapper-icon__social-medias {
   font-size: 3rem;
+}
+
+.footer__wrapper-icon__social-medias__anchor {
+  text-decoration: none;
   color: var(--collor-secondary-text);
 }
 
 .footer__row {
   border: solid 1px;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   color: #3E3E3E;
 }
 
@@ -251,5 +285,18 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  padding: 5rem;
+}
+
+.footer__contact__information__sub-title {
+  color: var(--collor-secondary-text);
+  font-weight: var(--font-weight-title);
+  padding: 1rem 0;
+  font-size: 20px;
+}
+
+.footer p {
+  padding: 0.5rem 0;
+  color: var(--collor-secondary-text);
 }
 /*# sourceMappingURL=style.css.map */
