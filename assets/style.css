@@ -252,6 +252,10 @@ body {
   background-color: var(--color-primary-main);
 }
 
+.footer__pd {
+  padding: 3rem 0;
+}
+
 .footer__wrapper-icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -259,7 +263,6 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 2rem;
 }
 
 .footer__wrapper-icon__title {
@@ -279,17 +282,17 @@ body {
 
 .footer__row {
   border: solid 1px;
-  margin: 0.5rem 0;
   color: #3E3E3E;
+  margin: 3rem 0;
 }
 
 .footer__contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding: 5rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .footer__contact__information__sub-title {
