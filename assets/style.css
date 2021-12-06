@@ -7,6 +7,10 @@
   --collor-secondary-text: #FFFFFF;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
